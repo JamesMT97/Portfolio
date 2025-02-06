@@ -394,31 +394,7 @@ Beyond my professional pursuits, I am deeply passionate about content creation a
           </ul>
         </div>
       </div>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function () {
-    // Initialize Isotope
-    var $grid = $(".portfolio-container").isotope({
-      itemSelector: ".portfolio-item",
-      layoutMode: "fitRows"
-    });
-
-    // Filter items on button click
-    $("#portfolio-flters li").on("click", function () {
-      // Change active class on filters
-      $("#portfolio-flters li").removeClass("filter-active");
-      $(this).addClass("filter-active");
-
-      // Get the data-filter value and apply it
-      var filterValue = $(this).attr("data-filter");
-      $grid.isotope({ filter: filterValue });
-    });
-  });
-</script>
-var $grid = $(".portfolio-container").isotope({
-  itemSelector: ".portfolio-item",
-  layoutMode: "fitRows"
-});
+	    
       <div class="portfolio-container">
         
 		<div class="col-lg-4 col-md-6 portfolio-item filter-project">
