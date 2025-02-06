@@ -415,7 +415,10 @@ Beyond my professional pursuits, I am deeply passionate about content creation a
     });
   });
 </script>
-
+var $grid = $(".portfolio-container").isotope({
+  itemSelector: ".portfolio-item",
+  layoutMode: "fitRows"
+});
       <div class="portfolio-container">
         
 		<div class="col-lg-4 col-md-6 portfolio-item filter-project">
