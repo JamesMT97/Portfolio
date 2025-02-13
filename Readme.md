@@ -1,5 +1,4 @@
-# My Personal Portfolio 🔥
-
+# My Personal Portfolio
 
 ## Features 📋
 ⚡️ Fully Responsive\
